@@ -1,0 +1,20 @@
+// VARIÁVEIS DO PRIMEIRO OBJETIVO
+let nomeObjetivo1 = "Aprender JavaScript";
+let tempoObjetivo1 = 20; // tempo em horas dedicado ao objetivo 1
+
+// VARIÁVEIS PARA A PRÓXIMA ABA / SEGUNDO OBJETIVO
+let nomeObjetivo2 = "Dominar React";
+let tempoObjetivo2 = 15; // tempo em horas dedicado ao objetivo 2
+
+// FUNÇÃO PARA SOMAR O TEMPO
+function calcularTempoTotal(tempo1, tempo2) {
+    let tempoTotal = tempo1 + tempo2;
+    return tempoTotal;
+}
+
+// EXIBIÇÃO NO CONSOLE
+console.log("Tempo dedicado ao " + nomeObjetivo1 + ": " + tempoObjetivo1 + " horas");
+console.log("Tempo dedicado ao " + nomeObjetivo2 + ": " + tempoObjetivo2 + " horas");
+console.log("Tempo total de estudos: " + calcularTempoTotal(tempoObjetivo1, tempoObjetivo2) + " horas");
+
+
